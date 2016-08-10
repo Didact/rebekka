@@ -7,14 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		47179B801B1352FD00CAFD6D /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47179B7F1B1352FD00CAFD6D /* Operation.swift */; };
-		47179B821B13530A00CAFD6D /* StreamOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47179B811B13530A00CAFD6D /* StreamOperation.swift */; };
-		47179B841B13539700CAFD6D /* ReadStreamOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47179B831B13539700CAFD6D /* ReadStreamOperation.swift */; };
-		47179B861B1353A500CAFD6D /* WriteStreamOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47179B851B1353A500CAFD6D /* WriteStreamOperation.swift */; };
-		47179B891B13541600CAFD6D /* ResourceListOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47179B881B13541600CAFD6D /* ResourceListOperation.swift */; };
-		47179B8B1B13543B00CAFD6D /* FileDownloadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47179B8A1B13543B00CAFD6D /* FileDownloadOperation.swift */; };
-		47179B8F1B13549000CAFD6D /* FileUploadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47179B8E1B13549000CAFD6D /* FileUploadOperation.swift */; };
-		47179B911B1354B200CAFD6D /* DirectoryCreationOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47179B901B1354B200CAFD6D /* DirectoryCreationOperation.swift */; };
 		47179B921B1354FB00CAFD6D /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47179B7F1B1352FD00CAFD6D /* Operation.swift */; };
 		47179B931B1354FB00CAFD6D /* StreamOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47179B811B13530A00CAFD6D /* StreamOperation.swift */; };
 		47179B941B1354FB00CAFD6D /* WriteStreamOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47179B851B1353A500CAFD6D /* WriteStreamOperation.swift */; };
@@ -23,7 +15,6 @@
 		47179B971B1354FB00CAFD6D /* ReadStreamOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47179B831B13539700CAFD6D /* ReadStreamOperation.swift */; };
 		47179B981B1354FB00CAFD6D /* ResourceListOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47179B881B13541600CAFD6D /* ResourceListOperation.swift */; };
 		47179B991B1354FB00CAFD6D /* FileDownloadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47179B8A1B13543B00CAFD6D /* FileDownloadOperation.swift */; };
-		47FFC2F81B092A3800D3EDFE /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FFC2F71B092A3800D3EDFE /* Session.swift */; };
 		47FFC2F91B092A3800D3EDFE /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FFC2F71B092A3800D3EDFE /* Session.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,19 +29,11 @@
 		47179B901B1354B200CAFD6D /* DirectoryCreationOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectoryCreationOperation.swift; sourceTree = "<group>"; };
 		47E972DE1C9DB20F00FFE3B3 /* rebekka.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = rebekka.podspec; path = ../rebekka.podspec; sourceTree = "<group>"; };
 		47FFC2661B0926C600D3EDFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		47FFC2831B09279200D3EDFE /* Rebekka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Rebekka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		47FFC2DC1B09297E00D3EDFE /* RebekkaTouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RebekkaTouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47FFC2DC1B09297E00D3EDFE /* Rebekka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Rebekka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		47FFC2F71B092A3800D3EDFE /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		47FFC27F1B09279200D3EDFE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		47FFC2D81B09297E00D3EDFE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -104,8 +87,7 @@
 		47FFC2631B0926C600D3EDFE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				47FFC2831B09279200D3EDFE /* Rebekka.framework */,
-				47FFC2DC1B09297E00D3EDFE /* RebekkaTouch.framework */,
+				47FFC2DC1B09297E00D3EDFE /* Rebekka.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,13 +113,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		47FFC2801B09279200D3EDFE /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		47FFC2D91B09297E00D3EDFE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -148,28 +123,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		47FFC2821B09279200D3EDFE /* Rebekka */ = {
+		47FFC2DB1B09297E00D3EDFE /* Rebekka */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 47FFC2961B09279200D3EDFE /* Build configuration list for PBXNativeTarget "Rebekka" */;
-			buildPhases = (
-				47FFC27E1B09279200D3EDFE /* Sources */,
-				47FFC27F1B09279200D3EDFE /* Frameworks */,
-				47FFC2801B09279200D3EDFE /* Headers */,
-				47FFC2811B09279200D3EDFE /* Resources */,
-				4702C8121C32B6D400A742A5 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Rebekka;
-			productName = Rebekka;
-			productReference = 47FFC2831B09279200D3EDFE /* Rebekka.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		47FFC2DB1B09297E00D3EDFE /* RebekkaTouch */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 47FFC2EF1B09297E00D3EDFE /* Build configuration list for PBXNativeTarget "RebekkaTouch" */;
+			buildConfigurationList = 47FFC2EF1B09297E00D3EDFE /* Build configuration list for PBXNativeTarget "Rebekka" */;
 			buildPhases = (
 				47FFC2D71B09297E00D3EDFE /* Sources */,
 				47FFC2D81B09297E00D3EDFE /* Frameworks */,
@@ -181,9 +137,9 @@
 			);
 			dependencies = (
 			);
-			name = RebekkaTouch;
+			name = Rebekka;
 			productName = RebekkaTouch;
-			productReference = 47FFC2DC1B09297E00D3EDFE /* RebekkaTouch.framework */;
+			productReference = 47FFC2DC1B09297E00D3EDFE /* Rebekka.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -197,9 +153,6 @@
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Constantine Fry";
 				TargetAttributes = {
-					47FFC2821B09279200D3EDFE = {
-						CreatedOnToolsVersion = 6.3.1;
-					};
 					47FFC2DB1B09297E00D3EDFE = {
 						CreatedOnToolsVersion = 6.3.1;
 					};
@@ -217,20 +170,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				47FFC2821B09279200D3EDFE /* Rebekka */,
-				47FFC2DB1B09297E00D3EDFE /* RebekkaTouch */,
+				47FFC2DB1B09297E00D3EDFE /* Rebekka */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		47FFC2811B09279200D3EDFE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		47FFC2DA1B09297E00D3EDFE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -254,38 +199,9 @@
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"SwiftLint does not exist, download from https://github.com/realm/SwiftLint\"\nfi";
 		};
-		4702C8121C32B6D400A742A5 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"SwiftLint does not exist, download from https://github.com/realm/SwiftLint\"\nfi";
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		47FFC27E1B09279200D3EDFE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				47179B911B1354B200CAFD6D /* DirectoryCreationOperation.swift in Sources */,
-				47179B8B1B13543B00CAFD6D /* FileDownloadOperation.swift in Sources */,
-				47FFC2F81B092A3800D3EDFE /* Session.swift in Sources */,
-				47179B8F1B13549000CAFD6D /* FileUploadOperation.swift in Sources */,
-				47179B841B13539700CAFD6D /* ReadStreamOperation.swift in Sources */,
-				47179B861B1353A500CAFD6D /* WriteStreamOperation.swift in Sources */,
-				47179B821B13530A00CAFD6D /* StreamOperation.swift in Sources */,
-				47179B801B1352FD00CAFD6D /* Operation.swift in Sources */,
-				47179B891B13541600CAFD6D /* ResourceListOperation.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		47FFC2D71B09297E00D3EDFE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -395,54 +311,6 @@
 			};
 			name = Release;
 		};
-		47FFC2971B09279200D3EDFE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Rebekka/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "net.fry.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		47FFC2981B09279200D3EDFE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Rebekka/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "net.fry.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		47FFC2F01B09297E00D3EDFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -496,16 +364,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		47FFC2961B09279200D3EDFE /* Build configuration list for PBXNativeTarget "Rebekka" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				47FFC2971B09279200D3EDFE /* Debug */,
-				47FFC2981B09279200D3EDFE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		47FFC2EF1B09297E00D3EDFE /* Build configuration list for PBXNativeTarget "RebekkaTouch" */ = {
+		47FFC2EF1B09297E00D3EDFE /* Build configuration list for PBXNativeTarget "Rebekka" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				47FFC2F01B09297E00D3EDFE /* Debug */,
