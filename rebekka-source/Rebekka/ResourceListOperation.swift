@@ -60,6 +60,9 @@ internal class ResourceListOperation: ReadStreamOperation {
     var resources: [ResourceItem]?
     
     override func streamEventEnd(aStream: NSStream) -> (Bool, NSError?) {
+        guard self.inputData != nil else {
+            return (false, nil)
+        }
         var offset = 0
         let bytes = UnsafePointer<UInt8>(self.inputData!.bytes)
         let totalBytes = CFIndex(self.inputData!.length)
