@@ -84,7 +84,7 @@ internal class ResourceListOperation: ReadStreamOperation {
             }
         } while parsedBytes > 0
         self.resources = resources
-        entity.deinitialize()
+        entity.deallocate()
         return (true, nil)
     }
     
